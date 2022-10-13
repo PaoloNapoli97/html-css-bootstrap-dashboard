@@ -1,0 +1,54 @@
+/*-------------------
+    PAGE PROPERTIES - DEBUG
+-------------------*/
+header{
+    height: 70px;
+    background-color: aquamarine;
+}
+
+.ms-page-container{
+    height: calc(100vh - 70px);
+    background-color: gray;
+    display: flex;
+}
+
+aside{
+    width: 70px;
+    padding: 20px;
+    background-color: blueviolet;
+    flex-shrink: 0;
+}
+
+main{
+    flex-grow: 1;
+    background-color: bisque;
+    overflow-y: auto;
+}
+
+/* DEBUG */
+
+.debug-col-1{
+    background-color: azure;
+}
+
+.debug-col-2{
+    background-color: red;
+}
+
+.debug-row{
+    height: 100px;
+}
+
+/*-------------------
+    RESPONSIVE
+-------------------*/
+
+@media screen and (min-width:992px){
+    aside{
+        width: 200px;
+        padding: 20px;
+        background-color: blueviolet;
+        flex-shrink: 0;
+    }
+    
+}
