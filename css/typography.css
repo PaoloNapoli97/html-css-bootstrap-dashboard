@@ -1,3 +1,31 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+/*---------------
+    COLOR   
+----------------*/
+
+.ms-bg-color-light-gray{
+    background-color: var(--ms-light-gray-color);
+}
+
+.ms-bg-color-gray{
+    background-color: var(--ms-gray-color);
+}
+
+.ms-bg-primary-color{
+    background-color: var(--ms-primary-color);
+}
+
+.ms-bg-secondary-color{
+    background-color: var(--ms-secondary-color);
+}
+
+.ms-text-active-color{
+    color: var(--ms-active-color);
+}
+
+.ms-text-color{
+    color: var(--ms-dark-gray-color);
+}

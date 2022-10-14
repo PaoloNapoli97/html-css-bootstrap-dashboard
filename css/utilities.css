@@ -2,41 +2,65 @@
     PAGE PROPERTIES - DEBUG
 -------------------*/
 header{
-    height: 70px;
-    background-color: aquamarine;
+    height: 4.375rem;
 }
 
 .ms-page-container{
-    height: calc(100vh - 70px);
-    background-color: gray;
+    height: calc(100vh - 4.375rem);
     display: flex;
-}
-
-aside{
-    width: 70px;
-    padding: 20px;
-    background-color: blueviolet;
-    flex-shrink: 0;
 }
 
 main{
     flex-grow: 1;
-    background-color: bisque;
     overflow-y: auto;
+}
+
+
+/*-------------------
+    ASIDE
+-------------------*/
+
+aside{
+    color: white;
+    width: auto;
+    padding: 1.25rem;
+    background-image: url('../img/sidebar-bg.png');
+    flex-shrink: 0;
+}
+
+.ms-list-reset{
+    padding-left: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    list-style: none;
+}
+
+.ms-list-item{
+    font-size: 1.25rem;
+    padding: .5rem 0;
+    cursor: pointer;
+}
+
+.desktop{
+    display: none;
+    padding-left: .625rem;
+}
+
+nav a{
+    color: inherit;
+    text-decoration: none!important;
+}
+
+
+nav a:hover{
+    color: inherit;
 }
 
 /* DEBUG */
 
-.debug-col-1{
-    background-color: azure;
-}
-
-.debug-col-2{
-    background-color: red;
-}
 
 .debug-row{
-    height: 100px;
+    height: 6.25rem;
 }
 
 /*-------------------
@@ -44,11 +68,10 @@ main{
 -------------------*/
 
 @media screen and (min-width:992px){
-    aside{
-        width: 200px;
-        padding: 20px;
-        background-color: blueviolet;
-        flex-shrink: 0;
+    .desktop{
+        display: inline-block;
     }
     
 }
+
+

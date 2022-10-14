@@ -1,4 +1,10 @@
-:root{
-    --ms-primary-color: ;
-    --ms-secondary-color:  ;
+:root {
+    --ms-primary-color: #1c71e8;
+    --ms-secondary-color: #061e34;
+
+    --ms-light-gray-color: #f8f9fa;
+    --ms-gray-color: #f7f7f7;
+    --ms-dark-gray-color: #6c757d;
+
+    --ms-active-color: #ff8f00;
 }
