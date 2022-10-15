@@ -26,6 +26,6 @@ body{
     color: var(--ms-active-color);
 }
 
-.ms-text-color{
+.ms-color-dark-gray{
     color: var(--ms-dark-gray-color);
 }

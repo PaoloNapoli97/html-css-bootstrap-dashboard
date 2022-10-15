@@ -17,7 +17,44 @@
 </head>
 <body class="ms-bg-color-light-gray">
     <header class="d-flex align-items-center">
-
+        <div class="ms-header-nav">
+            <div class="ms-logo">
+                <img class="desktop" src="img/logo.svg" alt="">
+                <img class="mobile" src="img/mobile-logo.png" alt="">
+            </div>   
+            <!-- Bootstrap Container Fluid Search Bar -->
+            <div class="container-fluid">
+                <form class="d-flex" role="search">
+                   <!-- Searchbar With Search Icon Missing -->
+                  <input class="form-control me-2" type="search" placeholder=" &#xF002; Prova a cercare: Lezioni di Laravel" aria-label="Search" style="background-color: rgb(224, 224, 224);">
+                </form>
+            </div>
+            <!-- Utility Icon Header Nav  -->
+            <div class="ms-header-nav-utility d-flex">
+                <!-- Only Desktop  -->
+                <div class="desktop">
+                    <ul class="ms-list-reset d-flex">
+                        <li class="ms-list-item px-2"><a href="http://"><i class="fa-solid fa-list"></i></a></li>
+                        <li class="ms-list-item px-2"><a href="http://"><i class="fa-solid fa-circle-question"></i></a></li>
+                        <li class="ms-list-item px-2"><a href="http://"><i class="fa-solid fa-ellipsis-vertical"></i></a></li>
+                    </ul>
+                </div>
+                <div class="dropdown d-flex">
+                    <a class="ms-text-active-color d-flex ms-list-item px-2" href="#" data-bs-toggle="dropdown">
+                        <i class="m-auto fa-solid fa-bell px-2"></i>
+                    </a>
+                  
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Profilo</a></li>
+                      <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                      <li><a class="dropdown-item" href="#">Logout</a></li>
+                      <li class="mobile"><a class="dropdown-item" href="#">Grafici</a></li>
+                      <li class="mobile"><a class="dropdown-item" href="#">Aiuto</a></li>
+                      <li class="mobile"><a class="dropdown-item" href="#">Impostazioni</a></li>
+                    </ul>
+                  </div>
+            </div>
+        </div>
     </header>
     
     <div class="ms-page-container">
@@ -27,12 +64,12 @@
                 <!-- Utilities Icons -->
                 <ul class="d-flex flex-column ms-list-reset flex-grow-1">
                     <li class="ms-list-item"><a href="http://"><i class="fa-solid fa-house"></i><span class="desktop">Home</span></a></li>
-                    <li class="ms-list-item"><a href="http://"><i class="fa-solid fa-house"></i><span class="desktop">Stats</span></a></li>
-                    <li class="ms-list-item"><a href="http://"><i class="fa-solid fa-house"></i><span class="desktop">Signals</span></a></li>
+                    <li class="ms-list-item px-1"><a href="http://"><i class="fa-solid fa-chart-simple"></i><span class="desktop">Stats</span></a></li>
+                    <li class="ms-list-item"><a href="http://"><i class="fa-solid fa-signal"></i><span class="desktop">Signals</span></a></li>
                 </ul>
                 <!-- Account Icon  -->
                 <ul class="d-flex flex-column ms-list-reset mt-auto">
-                    <li class="ms-list-item"><a href="http://"><i class="fa-solid fa-house"></i><span class="desktop">Admin</span></a></li>
+                    <li class="ms-list-item"><a href="http://"><i class="fa-solid fa-gear"></i></i><span class="desktop">Admin</span></a></li>
                 </ul>
             </nav>
         </aside>

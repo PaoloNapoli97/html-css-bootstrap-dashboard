@@ -5,6 +5,7 @@ header{
     height: 4.375rem;
 }
 
+
 .ms-page-container{
     height: calc(100vh - 4.375rem);
     display: flex;
@@ -16,17 +17,32 @@ main{
 }
 
 
-/*-------------------
-    ASIDE
--------------------*/
-
 aside{
     color: white;
     width: auto;
-    padding: 1.25rem;
+    padding: 1.875rem;
     background-image: url('../img/sidebar-bg.png');
     flex-shrink: 0;
 }
+
+/*-------------------
+    HEADER
+-------------------*/
+
+.ms-header-nav{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 40px 
+}
+
+.ms-logo img{
+    width: 100%;
+    height: 100%;
+}
+/*-------------------
+    ASIDE
+-------------------*/
 
 .ms-list-reset{
     padding-left: 0;
@@ -46,13 +62,14 @@ aside{
     padding-left: .625rem;
 }
 
-nav a{
+nav a, header a {
     color: inherit;
     text-decoration: none!important;
 }
 
+/* Fix Hover a:link */
 
-nav a:hover{
+header a:hover ,nav a:hover{
     color: inherit;
 }
 
@@ -71,7 +88,10 @@ nav a:hover{
     .desktop{
         display: inline-block;
     }
-    
+
+    .mobile{
+        display: none;
+    }
 }
 
 
