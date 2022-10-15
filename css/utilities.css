@@ -113,7 +113,7 @@ header a:hover ,nav a:hover{
     TABLE
 -------------------*/
 
-td{
+td, th{
     white-space: nowrap;
 }
 
