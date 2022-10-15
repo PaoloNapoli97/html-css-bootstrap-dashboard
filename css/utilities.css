@@ -109,6 +109,16 @@ header a:hover ,nav a:hover{
     padding: .25rem;
     color: var(--ms-dark-gray-color);
 }
+
+/*-------------------
+    CARD
+-------------------*/
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
 /*-------------------
     TABLE
 -------------------*/
