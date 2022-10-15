@@ -29,3 +29,7 @@ body{
 .ms-color-dark-gray{
     color: var(--ms-dark-gray-color);
 }
+
+.ms-text-white-color{
+    color: var(--ms-text-white-color);
+}
